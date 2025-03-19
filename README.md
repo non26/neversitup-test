@@ -24,3 +24,6 @@ project.name
 │
 └── DockerFile
 ```
+
+How to check test case
+- you can run the unit tests for each problem for accuratecy.

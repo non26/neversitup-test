@@ -13,6 +13,26 @@
             // "cwd": "${workspaceFolder}",
             "dlvFlags": ["--check-go-version=false"],
             "console":"integratedTerminal"
+        },
+        {
+            "name": "smileface",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceRoot}/smile_face/smile_face.go",
+            // "cwd": "${workspaceFolder}",
+            "dlvFlags": ["--check-go-version=false"],
+            "console":"integratedTerminal"
+        },
+        {
+            "name": "odd_integer",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceRoot}/odd_integer/odd_integer.go",
+            // "cwd": "${workspaceFolder}",
+            "dlvFlags": ["--check-go-version=false"],
+            "console":"integratedTerminal"
         }
     ]
 }
